@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426D457E1EDDAF320062717E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D457D1EDDAF320062717E /* AppDelegate.swift */; };
+		426D45801EDDAF320062717E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D457F1EDDAF320062717E /* ViewController.swift */; };
+		426D45831EDDAF320062717E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426D45811EDDAF320062717E /* Main.storyboard */; };
+		426D45851EDDAF320062717E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426D45841EDDAF320062717E /* Assets.xcassets */; };
+		426D45881EDDAF320062717E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426D45861EDDAF320062717E /* LaunchScreen.storyboard */; };
+		426D45931EDDAF320062717E /* ChemoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D45921EDDAF320062717E /* ChemoTrackerTests.swift */; };
+		426D459E1EDDAF320062717E /* ChemoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D459D1EDDAF320062717E /* ChemoTrackerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		426D458F1EDDAF320062717E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426D45721EDDAF320062717E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426D45791EDDAF320062717E;
+			remoteInfo = ChemoTracker;
+		};
+		426D459A1EDDAF320062717E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 426D45721EDDAF320062717E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 426D45791EDDAF320062717E;
+			remoteInfo = ChemoTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		426D457A1EDDAF320062717E /* ChemoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		426D457D1EDDAF320062717E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		426D457F1EDDAF320062717E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		426D45821EDDAF320062717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		426D45841EDDAF320062717E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		426D45871EDDAF320062717E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		426D45891EDDAF320062717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426D458E1EDDAF320062717E /* ChemoTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426D45921EDDAF320062717E /* ChemoTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemoTrackerTests.swift; sourceTree = "<group>"; };
+		426D45941EDDAF320062717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		426D45991EDDAF320062717E /* ChemoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		426D459D1EDDAF320062717E /* ChemoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemoTrackerUITests.swift; sourceTree = "<group>"; };
+		426D459F1EDDAF320062717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		426D45771EDDAF320062717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D458B1EDDAF320062717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D45961EDDAF320062717E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		426D45711EDDAF320062717E = {
+			isa = PBXGroup;
+			children = (
+				426D457C1EDDAF320062717E /* ChemoTracker */,
+				426D45911EDDAF320062717E /* ChemoTrackerTests */,
+				426D459C1EDDAF320062717E /* ChemoTrackerUITests */,
+				426D457B1EDDAF320062717E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		426D457B1EDDAF320062717E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				426D457A1EDDAF320062717E /* ChemoTracker.app */,
+				426D458E1EDDAF320062717E /* ChemoTrackerTests.xctest */,
+				426D45991EDDAF320062717E /* ChemoTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		426D457C1EDDAF320062717E /* ChemoTracker */ = {
+			isa = PBXGroup;
+			children = (
+				426D457D1EDDAF320062717E /* AppDelegate.swift */,
+				426D457F1EDDAF320062717E /* ViewController.swift */,
+				426D45811EDDAF320062717E /* Main.storyboard */,
+				426D45841EDDAF320062717E /* Assets.xcassets */,
+				426D45861EDDAF320062717E /* LaunchScreen.storyboard */,
+				426D45891EDDAF320062717E /* Info.plist */,
+			);
+			path = ChemoTracker;
+			sourceTree = "<group>";
+		};
+		426D45911EDDAF320062717E /* ChemoTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				426D45921EDDAF320062717E /* ChemoTrackerTests.swift */,
+				426D45941EDDAF320062717E /* Info.plist */,
+			);
+			path = ChemoTrackerTests;
+			sourceTree = "<group>";
+		};
+		426D459C1EDDAF320062717E /* ChemoTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				426D459D1EDDAF320062717E /* ChemoTrackerUITests.swift */,
+				426D459F1EDDAF320062717E /* Info.plist */,
+			);
+			path = ChemoTrackerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		426D45791EDDAF320062717E /* ChemoTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426D45A21EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTracker" */;
+			buildPhases = (
+				426D45761EDDAF320062717E /* Sources */,
+				426D45771EDDAF320062717E /* Frameworks */,
+				426D45781EDDAF320062717E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChemoTracker;
+			productName = ChemoTracker;
+			productReference = 426D457A1EDDAF320062717E /* ChemoTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		426D458D1EDDAF320062717E /* ChemoTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426D45A51EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTrackerTests" */;
+			buildPhases = (
+				426D458A1EDDAF320062717E /* Sources */,
+				426D458B1EDDAF320062717E /* Frameworks */,
+				426D458C1EDDAF320062717E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426D45901EDDAF320062717E /* PBXTargetDependency */,
+			);
+			name = ChemoTrackerTests;
+			productName = ChemoTrackerTests;
+			productReference = 426D458E1EDDAF320062717E /* ChemoTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		426D45981EDDAF320062717E /* ChemoTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 426D45A81EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTrackerUITests" */;
+			buildPhases = (
+				426D45951EDDAF320062717E /* Sources */,
+				426D45961EDDAF320062717E /* Frameworks */,
+				426D45971EDDAF320062717E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				426D459B1EDDAF320062717E /* PBXTargetDependency */,
+			);
+			name = ChemoTrackerUITests;
+			productName = ChemoTrackerUITests;
+			productReference = 426D45991EDDAF320062717E /* ChemoTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		426D45721EDDAF320062717E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Innovare;
+				TargetAttributes = {
+					426D45791EDDAF320062717E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					426D458D1EDDAF320062717E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 426D45791EDDAF320062717E;
+					};
+					426D45981EDDAF320062717E = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 426D45791EDDAF320062717E;
+					};
+				};
+			};
+			buildConfigurationList = 426D45751EDDAF320062717E /* Build configuration list for PBXProject "ChemoTracker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 426D45711EDDAF320062717E;
+			productRefGroup = 426D457B1EDDAF320062717E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				426D45791EDDAF320062717E /* ChemoTracker */,
+				426D458D1EDDAF320062717E /* ChemoTrackerTests */,
+				426D45981EDDAF320062717E /* ChemoTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		426D45781EDDAF320062717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426D45881EDDAF320062717E /* LaunchScreen.storyboard in Resources */,
+				426D45851EDDAF320062717E /* Assets.xcassets in Resources */,
+				426D45831EDDAF320062717E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D458C1EDDAF320062717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D45971EDDAF320062717E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		426D45761EDDAF320062717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426D45801EDDAF320062717E /* ViewController.swift in Sources */,
+				426D457E1EDDAF320062717E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D458A1EDDAF320062717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426D45931EDDAF320062717E /* ChemoTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		426D45951EDDAF320062717E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426D459E1EDDAF320062717E /* ChemoTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		426D45901EDDAF320062717E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426D45791EDDAF320062717E /* ChemoTracker */;
+			targetProxy = 426D458F1EDDAF320062717E /* PBXContainerItemProxy */;
+		};
+		426D459B1EDDAF320062717E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 426D45791EDDAF320062717E /* ChemoTracker */;
+			targetProxy = 426D459A1EDDAF320062717E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		426D45811EDDAF320062717E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426D45821EDDAF320062717E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		426D45861EDDAF320062717E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				426D45871EDDAF320062717E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		426D45A01EDDAF320062717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		426D45A11EDDAF320062717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		426D45A31EDDAF320062717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChemoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		426D45A41EDDAF320062717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ChemoTracker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		426D45A61EDDAF320062717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChemoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoTracker.app/ChemoTracker";
+			};
+			name = Debug;
+		};
+		426D45A71EDDAF320062717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ChemoTrackerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChemoTracker.app/ChemoTracker";
+			};
+			name = Release;
+		};
+		426D45A91EDDAF320062717E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChemoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChemoTracker;
+			};
+			name = Debug;
+		};
+		426D45AA1EDDAF320062717E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ChemoTrackerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ChemoTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		426D45751EDDAF320062717E /* Build configuration list for PBXProject "ChemoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D45A01EDDAF320062717E /* Debug */,
+				426D45A11EDDAF320062717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		426D45A21EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D45A31EDDAF320062717E /* Debug */,
+				426D45A41EDDAF320062717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426D45A51EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D45A61EDDAF320062717E /* Debug */,
+				426D45A71EDDAF320062717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		426D45A81EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				426D45A91EDDAF320062717E /* Debug */,
+				426D45AA1EDDAF320062717E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 426D45721EDDAF320062717E /* Project object */;
+}
