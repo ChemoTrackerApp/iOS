@@ -32,7 +32,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Calendar" id="D2C-lz-pBa"/>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="D2C-lz-pBa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qHl-DD-lmo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -98,6 +98,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="calendar" width="25" height="25"/>
         <image name="home" width="25" height="25"/>
         <image name="more" width="25" height="25"/>
         <image name="symptom" width="25" height="25"/>
