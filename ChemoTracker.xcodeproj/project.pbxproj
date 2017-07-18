@@ -14,6 +14,9 @@
 		426D45881EDDAF320062717E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426D45861EDDAF320062717E /* LaunchScreen.storyboard */; };
 		426D45931EDDAF320062717E /* ChemoTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D45921EDDAF320062717E /* ChemoTrackerTests.swift */; };
 		426D459E1EDDAF320062717E /* ChemoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D459D1EDDAF320062717E /* ChemoTrackerUITests.swift */; };
+		632436251F0D8BFD0073F101 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632436231F0D8BFD0073F101 /* UserProfile.storyboard */; };
+		633B199E1F1532E300E527F8 /* carrie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 633B199D1F1532E300E527F8 /* carrie.jpg */; };
+		63845DBE1F15497D00979EB2 /* UIUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		426D45991EDDAF320062717E /* ChemoTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChemoTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		426D459D1EDDAF320062717E /* ChemoTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemoTrackerUITests.swift; sourceTree = "<group>"; };
 		426D459F1EDDAF320062717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		632436241F0D8BFD0073F101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserProfile.storyboard; sourceTree = "<group>"; };
+		633B199D1F1532E300E527F8 /* carrie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrie.jpg; sourceTree = "<group>"; };
+		63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUserProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,12 @@
 				426D457D1EDDAF320062717E /* AppDelegate.swift */,
 				426D457F1EDDAF320062717E /* ViewController.swift */,
 				426D45811EDDAF320062717E /* Main.storyboard */,
+				633B199D1F1532E300E527F8 /* carrie.jpg */,
 				426D45841EDDAF320062717E /* Assets.xcassets */,
 				426D45861EDDAF320062717E /* LaunchScreen.storyboard */,
 				426D45891EDDAF320062717E /* Info.plist */,
+				632436231F0D8BFD0073F101 /* UserProfile.storyboard */,
+				63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */,
 			);
 			path = ChemoTracker;
 			sourceTree = "<group>";
@@ -233,7 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				426D45881EDDAF320062717E /* LaunchScreen.storyboard in Resources */,
+				632436251F0D8BFD0073F101 /* UserProfile.storyboard in Resources */,
 				426D45851EDDAF320062717E /* Assets.xcassets in Resources */,
+				633B199E1F1532E300E527F8 /* carrie.jpg in Resources */,
 				426D45831EDDAF320062717E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +272,7 @@
 			files = (
 				426D45801EDDAF320062717E /* ViewController.swift in Sources */,
 				426D457E1EDDAF320062717E /* AppDelegate.swift in Sources */,
+				63845DBE1F15497D00979EB2 /* UIUserProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +322,14 @@
 				426D45871EDDAF320062717E /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		632436231F0D8BFD0073F101 /* UserProfile.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				632436241F0D8BFD0073F101 /* Base */,
+			);
+			name = UserProfile.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -505,6 +525,7 @@
 				426D45A41EDDAF320062717E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426D45A51EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +534,7 @@
 				426D45A71EDDAF320062717E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		426D45A81EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTrackerUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +543,7 @@
 				426D45AA1EDDAF320062717E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
