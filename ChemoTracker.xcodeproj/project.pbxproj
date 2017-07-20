@@ -16,6 +16,7 @@
 		426D459E1EDDAF320062717E /* ChemoTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D459D1EDDAF320062717E /* ChemoTrackerUITests.swift */; };
 		426D45B01EDDD9070062717E /* LoginView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426D45AF1EDDD9070062717E /* LoginView.storyboard */; };
 		42CABA381F211EC300ABBEA1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CABA371F211EC300ABBEA1 /* SignUpViewController.swift */; };
+		42CABA3A1F2131AD00ABBEA1 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CABA391F2131AD00ABBEA1 /* TabBarViewController.swift */; };
 		632436251F0D8BFD0073F101 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632436231F0D8BFD0073F101 /* UserProfile.storyboard */; };
 		633B199E1F1532E300E527F8 /* carrie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 633B199D1F1532E300E527F8 /* carrie.jpg */; };
 		63845DBE1F15497D00979EB2 /* UIUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */; };
@@ -54,6 +55,7 @@
 		426D459F1EDDAF320062717E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		426D45AF1EDDD9070062717E /* LoginView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LoginView.storyboard; sourceTree = "<group>"; };
 		42CABA371F211EC300ABBEA1 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		42CABA391F2131AD00ABBEA1 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		632436241F0D8BFD0073F101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserProfile.storyboard; sourceTree = "<group>"; };
 		633B199D1F1532E300E527F8 /* carrie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrie.jpg; sourceTree = "<group>"; };
 		63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUserProfileViewController.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				426D45891EDDAF320062717E /* Info.plist */,
 				632436231F0D8BFD0073F101 /* UserProfile.storyboard */,
 				63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */,
+				42CABA391F2131AD00ABBEA1 /* TabBarViewController.swift */,
 			);
 			path = ChemoTracker;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42CABA3A1F2131AD00ABBEA1 /* TabBarViewController.swift in Sources */,
 				42CABA381F211EC300ABBEA1 /* SignUpViewController.swift in Sources */,
 				426D45801EDDAF320062717E /* LoginViewController.swift in Sources */,
 				426D457E1EDDAF320062717E /* AppDelegate.swift in Sources */,

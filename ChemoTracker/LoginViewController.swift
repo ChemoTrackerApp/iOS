@@ -26,6 +26,15 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
         self.passwordField.resignFirstResponder()
         return true
     }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField) {
+        if(textField.text == "Email address not valid!"){
+            textField.text = nil
+            textField.textColor = UIColor.black
+        }
+//        self.emailField.text = nil
+//        self.emailField.textColor = UIColor.black
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
