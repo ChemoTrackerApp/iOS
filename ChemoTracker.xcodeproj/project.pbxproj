@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31E7B2E2D6D2F9CD9A4CD174 /* Pods_ChemoTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B06CD27BC6E416FE719A42 /* Pods_ChemoTracker.framework */; };
 		426D457E1EDDAF320062717E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D457D1EDDAF320062717E /* AppDelegate.swift */; };
 		426D45801EDDAF320062717E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426D457F1EDDAF320062717E /* LoginViewController.swift */; };
 		426D45831EDDAF320062717E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426D45811EDDAF320062717E /* Main.storyboard */; };
@@ -18,6 +19,9 @@
 		42CABA381F211EC300ABBEA1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CABA371F211EC300ABBEA1 /* SignUpViewController.swift */; };
 		632436251F0D8BFD0073F101 /* UserProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 632436231F0D8BFD0073F101 /* UserProfile.storyboard */; };
 		633B199E1F1532E300E527F8 /* carrie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 633B199D1F1532E300E527F8 /* carrie.jpg */; };
+		635977821F1ECD3B004B2A15 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635977811F1ECD3B004B2A15 /* JTAppleCalendar.framework */; };
+		635977831F1ECD3B004B2A15 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635977811F1ECD3B004B2A15 /* JTAppleCalendar.framework */; };
+		635977841F1ECD3B004B2A15 /* JTAppleCalendar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635977811F1ECD3B004B2A15 /* JTAppleCalendar.framework */; };
 		63845DBE1F15497D00979EB2 /* UIUserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29B06CD27BC6E416FE719A42 /* Pods_ChemoTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChemoTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		426D457A1EDDAF320062717E /* ChemoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChemoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426D457D1EDDAF320062717E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		426D457F1EDDAF320062717E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +61,10 @@
 		42CABA371F211EC300ABBEA1 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		632436241F0D8BFD0073F101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/UserProfile.storyboard; sourceTree = "<group>"; };
 		633B199D1F1532E300E527F8 /* carrie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carrie.jpg; sourceTree = "<group>"; };
+		635977811F1ECD3B004B2A15 /* JTAppleCalendar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JTAppleCalendar.framework; path = Carthage/Build/iOS/JTAppleCalendar.framework; sourceTree = "<group>"; };
 		63845DBD1F15497D00979EB2 /* UIUserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIUserProfileViewController.swift; sourceTree = "<group>"; };
+		8FA779F660E36FFC842DED97 /* Pods-ChemoTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemoTracker.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChemoTracker/Pods-ChemoTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		E7788878B490C600531E8827 /* Pods-ChemoTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChemoTracker.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChemoTracker/Pods-ChemoTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +72,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31E7B2E2D6D2F9CD9A4CD174 /* Pods_ChemoTracker.framework in Frameworks */,
+				635977821F1ECD3B004B2A15 /* JTAppleCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635977831F1ECD3B004B2A15 /* JTAppleCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				635977841F1ECD3B004B2A15 /* JTAppleCalendar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +99,13 @@
 		426D45711EDDAF320062717E = {
 			isa = PBXGroup;
 			children = (
+				635977811F1ECD3B004B2A15 /* JTAppleCalendar.framework */,
 				426D457C1EDDAF320062717E /* ChemoTracker */,
 				426D45911EDDAF320062717E /* ChemoTrackerTests */,
 				426D459C1EDDAF320062717E /* ChemoTrackerUITests */,
 				426D457B1EDDAF320062717E /* Products */,
+				B8A2156F7CA3B23ACADA5C92 /* Pods */,
+				E016702E30D24200961324E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +155,23 @@
 			path = ChemoTrackerUITests;
 			sourceTree = "<group>";
 		};
+		B8A2156F7CA3B23ACADA5C92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8FA779F660E36FFC842DED97 /* Pods-ChemoTracker.debug.xcconfig */,
+				E7788878B490C600531E8827 /* Pods-ChemoTracker.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E016702E30D24200961324E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B06CD27BC6E416FE719A42 /* Pods_ChemoTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 426D45A21EDDAF320062717E /* Build configuration list for PBXNativeTarget "ChemoTracker" */;
 			buildPhases = (
+				9B34B189275D714537F6CC89 /* [CP] Check Pods Manifest.lock */,
 				426D45761EDDAF320062717E /* Sources */,
 				426D45771EDDAF320062717E /* Frameworks */,
 				426D45781EDDAF320062717E /* Resources */,
+				4CC91482CBCF282EDF07ECBB /* [CP] Embed Pods Frameworks */,
+				002F63E016A90E30122CC6FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +307,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002F63E016A90E30122CC6FF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChemoTracker/Pods-ChemoTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC91482CBCF282EDF07ECBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChemoTracker/Pods-ChemoTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B34B189275D714537F6CC89 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		426D45761EDDAF320062717E /* Sources */ = {
@@ -439,8 +522,13 @@
 		};
 		426D45A31EDDAF320062717E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FA779F660E36FFC842DED97 /* Pods-ChemoTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				DEVELOPMENT_TEAM = HFA9G9W693;
 				INFOPLIST_FILE = ChemoTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -453,8 +541,13 @@
 		};
 		426D45A41EDDAF320062717E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7788878B490C600531E8827 /* Pods-ChemoTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				DEVELOPMENT_TEAM = HFA9G9W693;
 				INFOPLIST_FILE = ChemoTracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -470,6 +563,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ChemoTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerTests;
@@ -484,6 +581,10 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ChemoTrackerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerTests;
@@ -497,6 +598,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ChemoTrackerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerUITests;
@@ -510,6 +615,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ChemoTrackerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fydp.ChemoTrackerUITests;

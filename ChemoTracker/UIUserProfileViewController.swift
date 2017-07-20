@@ -9,12 +9,23 @@
 import UIKit
 
 class UIUserProfileViewController: UIViewController {
-
-    //TODO: figure out how to dynamically change text fields and sending requests
+    @IBOutlet weak var topView: UIView!
+    @IBOutlet weak var profileImage: UIImageView!
+    @IBOutlet weak var nicknameText: UILabel!
+    @IBOutlet weak var fullnameText: UILabel!
+    @IBOutlet weak var diagnosisLabelText: UILabel!
+    @IBOutlet weak var drugAllergiesLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        self.profileImage.layer.cornerRadius = self.profileImage.frame.height/2
+        self.profileImage.clipsToBounds = true
+        
+        UIGraphicsBeginImageContext(self.topView.frame.size)
+        UIImage(named: "profilebackground")?.draw(in: self.topView.bounds)
+        let image: UIImage = UIGraphicsGetImageFromCurrentImageContext()!
+        UIGraphicsEndImageContext()
+        self.topView.backgroundColor = UIColor(patternImage: image)
     }
 
     override func didReceiveMemoryWarning() {
