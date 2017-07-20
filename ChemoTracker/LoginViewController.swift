@@ -42,6 +42,11 @@ class LoginViewController: UIViewController, UITextFieldDelegate{
             self.emailField.text = "Email address not valid!"
             self.emailField.textColor = UIColor.red
         }
+        else{
+            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+            let tabViewController = storyBoard.instantiateViewController(withIdentifier: "tabView")as! TabBarViewController
+            self.present(tabViewController, animated:true, completion:nil)
+        }
     }
 
 }
