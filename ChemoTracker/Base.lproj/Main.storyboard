@@ -1,27 +1,106 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11521.1" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aL3-DJ-fQX">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11517.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--UserProfile-->
+        <scene sceneID="3J5-FD-GHw">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ChemoTracker" customModuleProvider="target" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="UserProfile" id="Yh7-0x-WBt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="More" image="more" id="S3C-Ds-gMj"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKa-nX-xCP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369" y="674"/>
+        </scene>
+        <!--Calendar-->
+        <scene sceneID="8wm-ma-dQK">
+            <objects>
+                <viewController id="8Ae-He-yDc" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="GJS-pb-QGQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="9ij-Ii-d0v"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="T8t-2g-72i">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Calendar" image="calendar" id="D2C-lz-pBa"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qHl-DD-lmo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="918" y="1047"/>
+        </scene>
+        <!--Symptom Tracking-->
+        <scene sceneID="imu-Mt-dKp">
+            <objects>
+                <viewController id="WWT-Zd-kY9" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="17Z-cA-e3S"/>
+                        <viewControllerLayoutGuide type="bottom" id="lOQ-Ws-bsJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="erc-RN-0eo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Symptom Tracking" image="symptom" id="Yvd-CY-n4K"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2lw-dB-PC2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1021" y="276"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="BoG-n4-NFF">
+            <objects>
+                <viewController id="CpB-Gz-47a" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ay9-eg-q39"/>
+                        <viewControllerLayoutGuide type="bottom" id="AFP-rg-3mu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hdf-Cb-XoK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="home" id="x2x-42-Ya6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xLs-Z4-Ti0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1020" y="-379"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="qpx-XA-yjd">
+            <objects>
+                <tabBarController id="aL3-DJ-fQX" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="z9v-xW-Ue4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="CpB-Gz-47a" kind="relationship" relationship="viewControllers" id="Ila-i9-k73"/>
+                        <segue destination="WWT-Zd-kY9" kind="relationship" relationship="viewControllers" id="bIg-An-fKP"/>
+                        <segue destination="8Ae-He-yDc" kind="relationship" relationship="viewControllers" id="hCw-4w-n6t"/>
+                        <segue destination="Yh7-0x-WBt" kind="relationship" relationship="viewControllers" id="1S6-qf-WoN"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w1n-fB-RIe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="7" y="-9"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="calendar" width="25" height="25"/>
+        <image name="home" width="25" height="25"/>
+        <image name="more" width="25" height="25"/>
+        <image name="symptom" width="25" height="25"/>
+    </resources>
 </document>
